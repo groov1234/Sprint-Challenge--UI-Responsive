@@ -4,5 +4,5 @@ window.onload = function() {
         TweenLite.to(jumbo, 2, {boxShadow:"0px 0px 20px red", color:"#FC0"});
     var box =
     document.getElementsByName("box");
-    TweenLite.from(box, 2, {width:10, height:10});
+    TweenLite.from(box, 2, {width:0, height:0});
 }
